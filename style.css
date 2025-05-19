@@ -1,0 +1,223 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: gainsboro;
+}
+
+
+
+/* content web */
+.content {
+  margin: 8% auto;
+}
+
+
+/* container content */
+.container {
+  justify-content: center;
+  align-items: center;
+  margin: 25% auto;
+  padding: 22px;
+  background-color: #F3F3F3;
+  width: 340px;
+  border-radius: 10px;
+  height: 630px;
+}
+
+
+
+
+/* header h3 Judul */
+.header h3 {
+  text-align: center;
+  font-size: 21px;
+  margin-bottom: 7%;
+}
+
+
+
+
+/* form,label .input-box, input data */
+form .input-box input {
+  height: 40px;
+  width: 275px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 10px auto;
+  outline: none;
+  border-radius: 8.7px;
+  border: none;
+  border: 1.7px solid darkgray;
+}
+.input-box {
+  margin-bottom: 0px;
+}
+form {
+  margin-bottom: 0%;
+}
+label {
+  padding: 3%;
+  margin-bottom: 0px;
+  font-size: 13px;
+  color: grey;
+}
+
+
+
+
+/* remember forgot */
+.remember-forgot {
+  text-align: center;
+  padding: 0px;
+  margin: 0px auto;
+  display: flex;
+  position: relative;
+  left: 2.8%;
+  font-size: 14px;
+  font-weight: 500;
+}
+.remember-forgot a{
+  position: absolute;
+  left: 56.4%;
+  margin: 0px auto;
+  font-size: 14px;
+  text-decoration: none;
+  color: #E22424F0;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+/* .btn button login web */
+.btn button {
+  height: 42px;
+  width: 278px;
+  margin: 10.1% auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #287DCF;
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 4.6px;
+  margin-bottom: 23%;
+}
+.btn button:hover {
+  background-color: black;
+}
+
+
+/* seperator . separator*/
+.separator {
+    display: flex;
+    align-items: center;
+    color: black;
+    margin: 1.5rem 0;
+    font-size: 14px;
+}
+.separator::before,
+.separator::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid black;
+}
+.separator::before {
+    margin-right: 1rem;
+}
+.separator::after {
+    margin-left: 1rem;
+}
+
+
+
+
+/* sosmed account,  .enter-account */
+.enter-account {
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  position: relative;
+}
+.enter-account button {
+  height: 40px;
+  width: 278px;
+  margin: 6px;
+  border-radius: 4.6px;
+  border: none;
+  font-weight: 500;
+}
+.enter-account i {
+  position: absolute;
+  left: 6.1%;
+}
+.button-blue {
+  background-color: #2F87FA;
+  color: whitesmoke;
+  border: none;
+}
+.button-blue:hover {
+  background-color: black;
+}
+.group-facebook i {
+  top: 17.4%;
+  bottom: 0px;
+  color: whitesmoke;
+  border: none;
+}
+.group-google i {
+  top: 67.4%;
+  bottom: 10%;
+  left: 15px;
+  color: #353535;
+}
+.google button {
+  border: 1.7px solid #353535;
+}
+
+
+
+/* link p a */
+.link {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0px auto;
+  font-weight: 500;
+}
+.link p {
+  font-size: 13px;
+}
+.link a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #10ABFF;
+}
+.link a:hover {
+  text-decoration: underline;
+}
+
+/* by web developer*/
+.by-web p {
+  text-align: center;
+  font-size: 11.2px;
+  margin: 15px;
+  color: #32333E;
+}
+.by-web a {
+  text-decoration: none;
+  color: #32333E;
+}
+.by-web a:hover {
+  text-decoration: underline;
+}
